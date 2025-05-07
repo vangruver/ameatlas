@@ -1,0 +1,88 @@
+{
+  "id": "ameatlas",
+  "title": "Ameatlas",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "11",
+    "verified": "12"
+  },
+  "packs": [
+    {
+      "name": "ameacas",
+      "label": "Ameaças",
+      "path": "packs/ameacas",
+      "type": "Actor",
+      "system": "tormenta20",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "equipamentos",
+      "label": "Equipamentos",
+      "path": "packs/equipamentos",
+      "type": "Item",
+      "system": "tormenta20",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "parceiros",
+      "label": "Parceiros",
+      "path": "packs/parceiros",
+      "type": "Item",
+      "system": "tormenta20",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "poderes",
+      "label": "Poderes",
+      "path": "packs/poderes",
+      "type": "Item",
+      "system": "tormenta20",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "magias",
+      "label": "Magias",
+      "path": "packs/magias",
+      "type": "Item",
+      "system": "tormenta20",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "regras-adicionais",
+      "label": "Regras Adicionais",
+      "path": "packs/regras-adicionais",
+      "type": "JournalEntry",
+      "system": "tormenta20",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "tabelas",
+      "label": "Tabelas",
+      "path": "packs/tabelas",
+      "type": "RollTable",
+      "system": "tormenta20",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    }
+  ]
+}
